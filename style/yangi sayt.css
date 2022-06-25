@@ -1,0 +1,734 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+@media (min-width:900px){
+    .part1{
+        background: url(../img/03.jpg);
+        background-size: 100%;
+        background-position: center;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        padding-left: 100;
+        height: 50;
+        box-shadow: rgb(43, 43, 73) 5px 5px 15px;
+        background: rgba(0, 0, 0, 0.527);
+        color: white;
+    }
+    .nav h3{
+        text-transform: uppercase;
+        align-items: center;
+        padding-left: 10;
+    }
+    .nav .pe-7s-glasses{
+        font-size: 50;
+        font-weight: 900;
+    }
+    .nav ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+        text-transform: capitalize;
+        padding-left: 150;
+    }
+    .nav li{
+        padding-left: 60;
+        padding-right: 60;
+    }
+    .chap h1{
+        margin-left: 100;
+        margin-top: 70;
+        color: white;
+        font-size: 50px;
+        text-align: center;
+    }
+    .chap button{
+        width: 300;
+        height: 40;
+        margin-left: 90;
+        font-size: 25;
+        border-radius: 20px;
+        background: none;
+        color: white;
+        margin-top: 50;
+        text-transform: capitalize;
+    }
+    .chap .pe-7s-moon{
+        font-size: 30;
+        margin-left: 125;
+        margin-top: 50;
+        color: white;
+        font-weight: 900;
+    }
+    .chap .pe-7s-rocket{
+        font-size: 30;
+        margin-left: 70;
+        margin-top: 50;
+        color: white;
+        font-weight: 900;
+    }
+    .chap .pe-7s-gift {
+        font-size: 30;
+        margin-left: 70;
+        margin-top: 50;
+        color: white;
+        font-weight: 900;
+    }
+    .chap p{
+        color: white;
+        text-align: center;
+        margin-top: 50;
+        margin-left: 80;
+    }
+    .blog1{
+        display: flex;
+    }
+    .ong img {
+        width: 500px;
+        margin-top: 50;
+        margin-left: 150;
+    }
+    .blog2{
+        background: -webkit-linear-gradient(175deg, rgb(249, 255, 254) 25%, rgb(229, 229, 229) 15%);
+        background: -moz-linear-gradient(175deg, rgb(249, 255, 254) 25%, rgb(229, 229, 229) 15%);
+        background: linear-gradient(175deg, rgb(249, 255, 254) 25%, rgb(229, 229, 229) 15%);
+        padding-bottom: 50;
+    }
+    .blog2 .qator1 h3{
+        text-align: center;
+        font-size: 40;
+        padding-top: 50;
+        font-weight: 100;
+    }
+    .blog2 .qator2 img{
+        width: 250;
+        height: 550;
+        margin-left: 125;
+        padding-top: 50;
+    }
+    .blog2 .qator3{
+        display: flex;
+        text-align: center;
+        margin-top: 30;
+    }
+    .blog2 .text1{
+        margin-left: 155;
+    }
+    .blog2 .text1 p{
+        margin-top: 10;
+    }
+    .blog2 .text2{
+        margin-left: 200;
+    }
+    .blog2 .text2 p{
+        margin-top: 10;
+    }
+    .blog2 .text3{
+        margin-left: 160;
+    }
+    .blog2 .text3 p{
+        margin-top: 10;
+    }
+    .blog2 .qator4{
+        display: flex;
+        margin-top: 50;
+    }
+    .blog2 .qator4 .pe-7s-stopwatch{
+        font-size: 300;
+        color: red;
+        margin-left: 100;
+    }
+    .blog2 .qator4_2{
+        margin-top: 80;
+        margin-left: 50;
+        
+    }
+    .blog2 .qator4_2 h3{
+        text-decoration-line: underline;
+        color: rgb(255, 0, 191);
+    }
+    .blog3 .qoshtirnoq h1{
+        transform: rotate(180deg);
+        text-align: center;
+        font-size: 400;
+        color: grey;
+        font-family: Bodoni Bd BT;
+        font-weight: 100;
+        margin-top: 50;
+        margin-bottom: -300;
+    }
+    .blog3 .qator1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+    .blog3 .qator1 .pe-7s-angle-left{
+        font-size: 50;
+    }
+    .blog3 .qator1 .pe-7s-angle-right{
+        font-size: 50;
+    }
+    .blog3 .qator1 p{
+        text-align: center;
+    }
+    .blog3 h1{
+        text-align: center;
+        padding-top: 30;
+    }
+    .blog3 h3{
+        text-align: center;
+        font-size: 25;
+        font-weight: 100;
+    }
+    .blog3{
+        background: -webkit-linear-gradient(175deg, white 55%, rgb(229, 229, 229) 15%);
+        background: -moz-linear-gradient(175deg, white 55%, rgb(229, 229, 229) 15%);
+        background: linear-gradient(175deg, white 55%, rgb(229, 229, 229) 15%);
+    }
+    .blog3 .ul1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 500;
+        margin-top: 100;
+    }
+    .blog3 .ul1 li{
+        list-style: none;
+        text-align: center;
+        align-items: center;
+        background-color: rgb(35, 66, 35);
+        border: solid rgb(229, 229, 229) 2px;
+        color: white;
+        height: 60;
+        width: 200;
+        padding-top: 8;
+    }
+    .blog3 .ul2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 300;
+    }
+    .blog3 .ul2 li{
+        list-style: none;
+        text-align: center;
+        background-color: white;
+        height: 40;
+        width: 200;
+        align-items: center;
+        padding-top: 8;
+        border: solid rgb(229, 229, 229) 2px;
+    }
+    .blog3 .ul2 .pe-7s-check{
+        color: rgb(5, 187, 5);
+        font-size: 25;
+    }
+    .blog3 .ul3{
+        display: flex;
+        flex-direction: row;
+        margin-left: 300;
+    }
+    .blog3 .ul3 li{
+        list-style: none;
+        text-align: center;
+        background-color: white;
+        height: 40;
+        width: 200;
+        align-items: center;
+        padding-top: 8;
+        border: solid rgb(229, 229, 229) 2px;
+    }
+    .blog3 .ul3 .pe-7s-check{
+        color: rgb(5, 187, 5);
+        font-size: 25;
+    }
+    .blog3 .ul3 .pe-7s-close{
+        font-size: 25;
+        color: red;
+        font-weight: 900;
+    }
+    .blog3 .ul4{
+        display: flex;
+        flex-direction: row;
+        margin-left: 300;
+        padding-bottom: 70;
+    }
+    .blog3 .ul4 li{
+        list-style: none;
+        text-align: center;
+        background-color: white;
+        height: 40;
+        width: 200;
+        align-items: center;
+        padding-top: 8;
+        border: solid rgb(229, 229, 229) 2px;
+    }
+    .blog3 .ul4 .pe-7s-check{
+        color: rgb(5, 187, 5);
+        font-size: 25;
+    }
+    .blog3 .ul4 .pe-7s-close{
+        font-size: 25;
+        color: red;
+        font-weight: 900;
+    }
+    .blog4 h1{
+        text-align: center;
+        padding-top: 50px;
+        font-weight: 500;
+    }
+    .blog4 .ul1{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+    .blog4 .ul1 li{
+        list-style: none;
+        font-weight: 900;
+    }
+    .blog4 .ul2{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 10px;
+    }
+    .blog4 .ul2 li{
+        list-style: none;
+        color: red;
+    }
+    .blog4 img{
+        margin-top: 30;
+        width: 100%;
+        clip-path: polygon(50% 15%, 100% 0%, 100% 100%, 0 100%, 0 0);
+    }
+    .past{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 30px;
+    }
+    .bir{
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+    }
+    .bir .pe-7s-glasses{
+        font-size: 50;
+        color: red;
+        padding-right: 10;
+        font-weight: 900;
+    }
+    .ikki ul{
+        display: flex;
+        align-items: center;
+    }
+    .ikki li{
+        margin-right: 20;
+        color: red;
+        font-weight: 900;
+        border: solid black;
+        border-radius: 50%;
+        font-size: 20;
+        padding: 10;
+    }
+    .uch p{
+        text-transform: uppercase;
+        font-family: Vladimir Script;
+        font-size: 25;
+        font-weight: 900;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 899px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(45, 65, 45);
+        color: white;
+    }
+    .nav h3{
+        text-transform: uppercase;
+        align-items: center;
+        padding-left: 10;
+        position: absolute;
+        top: 15;
+        left: 100;
+    }
+    .nav .pe-7s-glasses{
+        font-size: 50;
+        font-weight: 900;
+        padding-left: 50;
+        border-bottom: solid black 1.5px;
+
+    }
+    .nav li{
+        text-align: center;
+        border-bottom: black solid 1.5px;
+        padding-top: 5;
+        padding-bottom: 5;
+    }
+    .blog1 {
+        background: url(../img/03.jpg);
+        background-size: 100%;
+        background-position: center;
+        display: flex;
+    }
+    .chap h1{
+        margin-left: 100;
+        margin-top: 70;
+        color: white;
+        font-size: 50px;
+        text-align: center;
+    }
+    .chap button{
+        width: 300;
+        height: 40;
+        margin-left: 90;
+        font-size: 25;
+        border-radius: 20px;
+        background: none;
+        color: white;
+        margin-top: 50;
+        text-transform: capitalize;
+    }
+    .chap .pe-7s-moon{
+        font-size: 30;
+        margin-left: 125;
+        margin-top: 50;
+        color: white;
+        font-weight: 900;
+    }
+    .chap .pe-7s-rocket{
+        font-size: 30;
+        margin-left: 70;
+        margin-top: 50;
+        color: white;
+        font-weight: 900;
+    }
+    .chap .pe-7s-gift {
+        font-size: 30;
+        margin-left: 70;
+        margin-top: 50;
+        color: white;
+        font-weight: 900;
+    }
+    .chap p{
+        color: white;
+        text-align: center;
+        margin-top: 50;
+        margin-left: 80;
+    }
+    .ong img{
+        position: relative;
+        right: 80;
+    }
+    .blog2{
+        background: -webkit-linear-gradient(175deg, white 15%, rgb(229, 229, 229) 15%);
+        background: -moz-linear-gradient(175deg, white 15%, rgb(229, 229, 229) 15%);
+        background: linear-gradient(175deg, white 15%, rgb(229, 229, 229) 15%);
+    }
+    .blog2 .qator1 h3{
+        text-align: center;
+        font-size: 30;
+        font-weight: 500;
+        padding-top: 30;
+    }
+    .blog2 .qator3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .blog2 .qator2 .rasm1{
+        position: relative;
+        width: 150;
+        height: 300;
+        top: 30;
+        left: 150;
+    }
+    .blog2 .qator3 .text1{
+        position: relative;
+        bottom: 260;
+        padding-top: 60;
+        padding-bottom: 10;
+    }
+    .blog2 .qator2 .rasm2{
+        position: relative;
+        width: 150;
+        height: 300;
+        right: 5;
+        top: 360;
+    }
+    .blog2 .qator3 .text2{
+        position: relative;
+        bottom: 290;
+        padding-top: 200;
+        padding-bottom: 10;
+    }
+    .blog2 .qator2 .rasm3{
+        position: relative;
+        width: 150;
+        height: 300;
+        top: 690;
+        right: 160;
+    }
+    .blog2 .qator3 .text3{
+        position: relative;
+        bottom: 310;
+        padding-top: 200;
+        padding-bottom: 10;
+        margin-bottom: -150;
+    }
+    .blog2 .qator4{
+        display: flex;
+        
+    }
+    .blog2 .qator4 .pe-7s-stopwatch{
+        font-size: 300;
+        color: red;
+        margin-left: 100;
+    }
+    .blog2 .qator4_2{
+        margin-top: 80;
+        margin-left: 50;
+        
+    }
+    .blog2 .qator4_2 h3{
+        text-decoration-line: underline;
+        color: rgb(255, 0, 191);
+    }
+    .qoshtirnoq h1{
+        font-size: 0;
+    }
+    .blog3 .qator1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+    .blog3 .qator1 .pe-7s-angle-left{
+        font-size: 50;
+    }
+    .blog3 .qator1 .pe-7s-angle-right{
+        font-size: 50;
+    }
+    .blog3 .qator1 p{
+        text-align: center;
+    }
+    .blog3 h1{
+        text-align: center;
+        padding-top: 30;
+    }
+    .blog3 h3{
+        text-align: center;
+        font-size: 25;
+        font-weight: 100;
+    }
+    .blog3{
+        background: -webkit-linear-gradient(175deg, white 45%, rgb(229, 229, 229) 15%);
+        background: -moz-linear-gradient(175deg, white 45%, rgb(229, 229, 229) 15%);
+        background: linear-gradient(175deg, white 45%, rgb(229, 229, 229) 15%);
+    }
+    .blog3 .ul1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 230;
+        margin-top: 100;
+    }
+    .blog3 .ul1 li{
+        list-style: none;
+        text-align: center;
+        align-items: center;
+        background-color: rgb(35, 66, 35);
+        border: solid rgb(229, 229, 229) 2px;
+        color: white;
+        height: 60;
+        width: 200;
+        padding-top: 8;
+    }
+    .blog3 .ul2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 30;
+    }
+    .blog3 .ul2 li{
+        list-style: none;
+        text-align: center;
+        background-color: white;
+        height: 40;
+        width: 200;
+        align-items: center;
+        padding-top: 8;
+        border: solid rgb(229, 229, 229) 2px;
+    }
+    .blog3 .ul2 .pe-7s-check{
+        color: rgb(5, 187, 5);
+        font-size: 25;
+    }
+    .blog3 .ul3{
+        display: flex;
+        flex-direction: row;
+        margin-left: 30;
+    }
+    .blog3 .ul3 li{
+        list-style: none;
+        text-align: center;
+        background-color: white;
+        height: 40;
+        width: 200;
+        align-items: center;
+        padding-top: 8;
+        border: solid rgb(229, 229, 229) 2px;
+    }
+    .blog3 .ul3 .pe-7s-check{
+        color: rgb(5, 187, 5);
+        font-size: 25;
+    }
+    .blog3 .ul3 .pe-7s-close{
+        font-size: 25;
+        color: red;
+        font-weight: 900;
+    }
+    .blog3 .ul4{
+        display: flex;
+        flex-direction: row;
+        margin-left: 30;
+        padding-bottom: 70;
+    }
+    .blog3 .ul4 li{
+        list-style: none;
+        text-align: center;
+        background-color: white;
+        height: 40;
+        width: 200;
+        align-items: center;
+        padding-top: 8;
+        border: solid rgb(229, 229, 229) 2px;
+    }
+    .blog3 .ul4 .pe-7s-check{
+        color: rgb(5, 187, 5);
+        font-size: 25;
+    }
+    .blog3 .ul4 .pe-7s-close{
+        font-size: 25;
+        color: red;
+        font-weight: 900;
+    }
+    .blog4 h1{
+        text-align: center;
+        padding-top: 50px;
+        font-weight: 500;
+    }
+    .blog4 .ul1{
+        display: flex;
+        padding-left: 250;
+        padding-top: 20px;
+    }
+    .blog4 .ul1 li{
+        list-style: none;
+        font-weight: 900;
+        padding-left: 25;
+        padding-right: 25;
+    }
+    .blog4 .ul2{
+        display: flex;
+        padding-left: 250;
+        padding-top: 10px;
+    }
+    .blog4 .ul2 li{
+        list-style: none;
+        color: red;
+    }
+    .blog4 img{
+        margin-top: 30;
+        width: 100%;
+        clip-path: polygon(50% 15%, 100% 0%, 100% 100%, 0 100%, 0 0);
+    }
+    .blog4 .manzil{
+        position: relative;
+        top: 60;
+        
+    }
+    .past{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 30px;
+    }
+    .bir{
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+    }
+    .bir .pe-7s-glasses{
+        font-size: 50;
+        color: red;
+        padding-right: 10;
+        font-weight: 900;
+    }
+    .ikki ul{
+        display: flex;
+        align-items: center;
+    }
+    .ikki li{
+        margin-right: 20;
+        color: red;
+        font-weight: 900;
+        border: solid black;
+        border-radius: 50%;
+        font-size: 20;
+        padding: 10;
+    }
+    .uch p{
+        text-transform: uppercase;
+        font-family: Vladimir Script;
+        font-size: 25;
+        font-weight: 900;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 599px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(45, 65, 45);
+        color: white;
+    }
+    .nav h3{
+        text-transform: uppercase;
+        align-items: center;
+        padding-left: 10;
+        position: absolute;
+        top: 15;
+        left: 100;
+    }
+    .nav .pe-7s-glasses{
+        font-size: 50;
+        font-weight: 900;
+        padding-left: 50;
+        border-bottom: solid black 1.5px;
+
+    }
+    .nav li{
+        text-align: center;
+        border-bottom: black solid 1.5px;
+        padding-top: 5;
+        padding-bottom: 5;
+    }
+
+}
